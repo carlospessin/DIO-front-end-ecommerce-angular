@@ -1,0 +1,44 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "Clean Code",
+      "price": "71.98",
+      "quantity": "3",
+      "category": "Informática",
+      "img": "https://m.media-amazon.com/images/I/41SH-SvWPxL.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Pai Rico, Pai Pobre",
+      "price": "35.90",
+      "quantity": "2",
+      "category": "Finanças",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/519kRFUvDOL._SX356_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Estruturas de Dados e algoritmos com JavaScript",
+      "price": "56.75",
+      "quantity": "7",
+      "category": "Informática",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/41QGA9y1LZL._SX357_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Fundamentos de HTML5 e CSS3",
+      "price": "41.90",
+      "quantity": "7",
+      "category": "Informática",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/51lMsgv7s8L._SX357_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Como fazer amigos e influenciar pessoas",
+      "price": "31.99",
+      "quantity": "1",
+      "category": "Desenvolvimento Pessoal",
+      "img": "https://images-na.ssl-images-amazon.com/images/I/41tkOqnrFNL._SX346_BO1,204,203,200_.jpg"
+    }
+  ]
+}

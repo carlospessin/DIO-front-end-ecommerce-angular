@@ -1,0 +1,21 @@
+<div class="card shadow-sm" [style.height]="cardHeight">
+  <img [src]="book.img" alt="capa do livro" class="bd-placeholder-img card-img-top">
+  <div class="card-body d-flex flex-column justify-content-between">
+    <div class="specs">
+      <span class="card-text limit" title="{{book.name}}"><strong>{{book.name}}</strong></span>
+      <p class="card-text" [style.color]="categoryColor"><small>{{book.category}}</small></p>
+    </div>
+
+    <div class="bottom-card">
+
+      <div class="price">
+        <p class="card-text" [style.fontSize]="priceFontSize"><strong>{{book.price | currency:'BRL'}}</strong></p>
+      </div>
+      <span class="card-text">Estoque: {{book.quantity}}</span>
+      <div class="btn-group flex-wrap">
+        <button type="button" class="btn btn-am btn-primary">Comprar</button>
+        <button type="button" class="btn btn-am btn-outline-primary">Detalhes</button>
+      </div>
+    </div>
+  </div>
+</div>
